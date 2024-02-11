@@ -6,14 +6,7 @@ pipeline {
         sh 'php --version'
       }
     }
-    stage('Change Directory Permissions') {
-            steps {
-                script {
-                    // Change permissions of the directory to allow Jenkins write access
-                    sh "sudo chmod -R 775 /var/www/html"
-                }
-            }
-        }
+    
     stage('Clone Repository') {
             steps {
                 script {
