@@ -175,7 +175,7 @@ else{
 
                                                    <div class="input-field col s12">
                                                    <input type="checkbox" onclick="myFunction()" id="check" name="check"></span>
-                                                    <label for="check">Show password</label>
+                                                    <label for="check">Show pwd</label>
                                                     </div>
                                                
                                                <div class="col s12 right-align m-t-sm">
