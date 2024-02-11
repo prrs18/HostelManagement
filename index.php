@@ -154,7 +154,7 @@ else{
             <main class="mn-inner">
                 <div class="row">
                     <div class="col s12">
-                        <div class="page-title"><b><h4>Welcome to Hostel Leave Automation</h4><b></div>
+                        <div class="page-title"><b><h4>Welcome to Girls Hostel Leave Automation</h4><b></div>
 
                           <div class="col s12 m6 l8 offset-l2 offset-m3">
                               <div class="card white darken-1">
