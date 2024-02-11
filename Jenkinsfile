@@ -6,6 +6,14 @@ pipeline {
         sh 'php --version'
       }
     }
+    stage('Change Directory Permissions') {
+            steps {
+                script {
+                    // Change permissions of the directory to allow Jenkins write access
+                    sh "sudo chmod -R 775 /var/www/html"
+                }
+            }
+        }
     stage('Clone Repository') {
             steps {
                 script {
@@ -13,7 +21,7 @@ pipeline {
                     deleteDir()
 
                     // Clone the Git repository
-                    sh "git clone https://github.com/prrs18/HostelManagement.git /var/www/html/devops"
+                    sh "git clone https://github.com/prrs18/HostelManagement.git /var/www/html/intern"
                 }
             }
         }
