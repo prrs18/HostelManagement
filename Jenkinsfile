@@ -14,7 +14,7 @@ pipeline {
                     deleteDir()
 
                     // Clone the Git repository
-                    sh "git clone https://github.com/prrs18/HostelManagement.git /var/www/html/intern"
+                    sh "git clone https://github.com/prrs18/HostelManagement.git /var/www/html/"
                 }
             }
         }
