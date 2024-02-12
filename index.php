@@ -21,7 +21,7 @@ if($query->rowCount() > 0)
   }
 if($status==0)
 {
-$msg="Your account is Inactive. Please contact admin";
+$msg="Your acc is Inactive. Please contact admin";
 } else{
 $_SESSION['emplogin']=$_POST['username'];
 echo "<script type='text/javascript'> document.location = 'myprofile.php'; </script>";
