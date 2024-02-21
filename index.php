@@ -2,7 +2,7 @@
 <?php
 session_start();
 error_reporting(0);
-include('includes/config.php');
+in('includes/config.php');
 if(isset($_POST['signin']))
 {
 $uname=$_POST['username'];
